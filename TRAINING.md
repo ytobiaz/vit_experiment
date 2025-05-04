@@ -2,7 +2,7 @@
 
 # Training Instructions
 
-The instructions have been primarily adopted from [NViT] (https://github.com/NVlabs/NViT).
+The instructions have been primarily adopted from [NViT](https://github.com/NVlabs/NViT).
 
 ## Pruning
 
