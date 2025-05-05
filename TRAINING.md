@@ -40,5 +40,5 @@ python -m torch.distributed.launch --nproc_per_node=8 --use_env finetune_dense.p
 After fine-tuning on ImageNet, `finetune_tl.py` can be used to apply transfer learning to the fine-tuned dense model.
 
 ```
-python -m torch.distributed.launch --nproc_per_node=8 --use_env finetune_dense.py --model deit_base_distilled_patch16_224 --epochs 300 --num_workers 10 --batch-size 128 --data-path /path/to/dataset/ --data-set dataset --amp --input-size 224 --seed 1 --lr 0.0002
+python -m torch.distributed.launch --nproc_per_node=8 --use_env finetune_dense.py --model deit_base_distilled_patch16_224 --epochs 300 --num_workers 10 --batch-size 128 --data-path /path/to/dataset/ --data-set dataset --amp --input-size 224 --seed 1 --lr 0.0005
 ```
